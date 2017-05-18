@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.Main3Activity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="576dp"
+        android:background="?android:attr/colorButtonNormal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="9dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.00"
+                    android:text=".... TELUS 3G"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.39"
+                    android:text="9:47AM"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.64"
+                    android:background="@drawable/gbdefrg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="52dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/jk," />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_dark"
+                    android:text="     Sync Calender"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="                  CAlender Sync for"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.44"
+                android:text="               Meeting intelligence"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ghnmfgnhjghdfgdf" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.09"
+            android:text="      weÈll periodically upload your phoneÈs calender,                                                                                "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="                            So you can follow  up"
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.11"
+            android:text="        .help you and others connect"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.08"
+            android:text="          .get notifications about who youÈare                                                                                                               " />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="          meeting before your meeting start" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="           . get reminders of new people youÈve met                                                                                   "
+            android:layout_weight="0.89" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="               so you can fllow up" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:orientation="vertical"></LinearLayout>
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:text="                              Learn more"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@drawable/gndfgbnf"
+            android:layout_weight="0.47" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="576dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_dark"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.00"
+                    android:text=".... TELUS 3G"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.39"
+                    android:text="9:47AM"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.64"
+                    android:background="@drawable/gbdefrg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="59dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dsvsdv" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_dark"
+                    android:text="     Find connection"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.45"
+                    app:srcCompat="@drawable/gnfg" />
+
+                <LinearLayout
+                    android:layout_width="197dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.28"
+                        android:text="Build your network"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="see who else you know on " />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/gfdfhth" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.51"
+                    app:srcCompat="@drawable/fgnfgnh" />
+
+                <LinearLayout
+                    android:layout_width="196dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:text="Sync calender"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="get insights about people you " />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.04"
+                    android:background="@drawable/gfdfhth" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="people you may know"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/fgnbfgn" />
+
+                <LinearLayout
+                    android:layout_width="205dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.28"
+                        android:text="Xun Wang"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2016" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.28"
+                        android:text="3 mutual connections" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.05"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dsdfsedf" />
+
+                <LinearLayout
+                    android:layout_width="121dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.97"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.52"
+                        android:text="jad gill"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="student at cegep de la gaspesie" />
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="des iles CAMPUS MONTREAL" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="67dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dsdfsedf" />
+
+                <LinearLayout
+                    android:layout_width="209dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.40"
+                        android:text="Xuanya he"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="student at cegep de la gaspesie" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="des iles" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.40"
+                        android:text="2 mutual connection" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="87dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/fgnfgn" />
+
+                <LinearLayout
+                    android:layout_width="216dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.57"
+                        android:text="Mathieu Laferrriere"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="i help freelancers,proffersionals" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="and entreprenuers level up with" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 mutual connection" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="76dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

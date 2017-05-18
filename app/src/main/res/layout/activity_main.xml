@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1691703.myapplication.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="576dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@android:color/holo_blue_dark"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.00"
+                    android:text=".... TELUS 3G"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.39"
+                    android:text="9:47AM"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.64"
+                    android:background="@drawable/gbdefrg" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="59dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dsvsdv" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/rgserge" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dsdfsedf" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Hamid guenaoui"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.29"
+                        android:text="teacher at lasalle college" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="68dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/SDSWDEF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_weight="0.83"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="73dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sdefsf" />
+
+                <LinearLayout
+                    android:layout_width="56dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1.02">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dynamix Adventures..."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="respect! cooperation!" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Team Spirit! Team " />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="68dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/SDSWDEF"
+                    android:layout_weight="0.04" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="horizontal"
+                android:layout_weight="0.67"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dsdfsedf" />
+
+                <LinearLayout
+                    android:layout_width="159dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="0.93"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.38"
+                        android:text="Elwood Lyken"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="--" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="59dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/SDSWDEF"
+                    android:layout_weight="0.14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sdcvsdcv" />
+
+                <LinearLayout
+                    android:layout_width="217dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_weight="1.09">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.39"
+                        android:text="Frista Habib, CPC"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.45"
+                        android:text="Bilingual Recruiter at                 Adecco group" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/SDSWDEF"
+                    android:layout_weight="2.41" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="77dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ssdcv" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.38"
+                        android:text="Patricia Lianos"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.38"
+                        android:text="Program and logistics              Director at FMA summits" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="62dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/SDSWDEF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="78dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dsdfsedf" />
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+                    android:layout_weight="1.06">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.44"
+                        android:text="HARKIRAT SINGH"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="student at sheridon                            college" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="62dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/SDSWDEF"
+                    android:layout_weight="0.56" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/svdvs" />
+
+                <LinearLayout
+                    android:layout_width="225dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Asen Grozdanov"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Adjunct professor of                computer science, colle" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/SDSWDEF" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"></LinearLayout>
+</android.support.constraint.ConstraintLayout>
